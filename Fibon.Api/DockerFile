@@ -4,6 +4,6 @@ WORKDIR /dotnetapp
 
 COPY ./Bin/Docker .
 
-ENV ASPNETCORE ENVIRONMENT docker
+ENV ASPNETCORE_ENVIRONMENT Docker
 
 ENTRYPOINT ["dotnet", "Fibon.Api.dll"]
