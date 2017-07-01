@@ -12,7 +12,7 @@ namespace Fibon.Messages.Commands
         Task HandleAsync(T command);
     }
 
-    public class CalculateValue : ICommand
+    public class CalculateValueCommand : ICommand
     {
         public int Number { get; set; }
 
